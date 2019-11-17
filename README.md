@@ -20,7 +20,9 @@ Freddie Mac Single Family Loan-Level Dataset
 - Split the data into training set and test set (80% training, 20%testing). Remember that data should be split first before resampling 
 
 ### Model
+#### model.py
 - One input layer; Two hidden Layer; One output Layer to predict probability of time_to_d
 
 ### Evaluation
+#### summary.py
 In progress...
