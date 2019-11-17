@@ -25,7 +25,7 @@ def set_g(row):
 df["time_to_d"] = df.apply(set_g, axis=1)
 
 train_set, test_set = train_test_split(df, test_size = 0.2)
-
+test_set.to_csv("test.csv")
 #%%
 # Vectorization for Categorical data
 # Categorial Fields to be encoded using onehot method
