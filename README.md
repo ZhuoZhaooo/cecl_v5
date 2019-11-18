@@ -27,6 +27,6 @@ Freddie Mac Single Family Loan-Level Dataset
 #### summary.py
 In progress...
 
-### Authours
+### Authors
 - **Zhuo Zhao** 
 - **Prof. Georges Tsafack** 
