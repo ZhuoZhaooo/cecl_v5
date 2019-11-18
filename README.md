@@ -1,5 +1,15 @@
 # CECL_V5
 The project is to build DNN model for credit losses estimation based on current expected credit losses methodology (CECL). The project focuses on the probability of default (PD) in future periods. 
+## Roadmap
+- **Introduction to CECL Backgrounds**
+- **ML CECL Architecture**
+- **Data Source**
+- **Workflow (Scripts Descriptions)**
+- **Model Evaluation**
+
+## Introduction to CECL Backgrounds
+- Current Expected Credit Losses (CECL) is a new credit loss accounting standard (mode)l issued by FASB.
+- The CECL standard focuses on estimation of expected losses over the life of the loans, while the current standard relies on incurred losses (ALLL).
 
 ## Data Source
 Freddie Mac Single Family Loan-Level Dataset
@@ -30,3 +40,4 @@ In progress...
 ### Authors
 - **Zhuo Zhao** 
 - **Prof. Georges Tsafack** 
+
