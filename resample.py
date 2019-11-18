@@ -56,7 +56,7 @@ smtenn = SMOTE(random_state=42, k_neighbors=3)
 res_train, res_target = smtenn.fit_sample(X_train, train_set["time_to_d"])
 
 res_target = res_target.reshape(-1,1)
-res_target = OneHotEncoder(categories="auto").fit_transform(y).toarray()
+res_target = OneHotEncoder(categories="auto").fit_transform(res_target).toarray()
 # %%
 # save resampled data
 np.save("res_train.npy", res_train.toarray())
