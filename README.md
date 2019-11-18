@@ -1,4 +1,4 @@
-# cecl_v5
+# CECL_V5
 The project is to build DNN model for credit losses estimation based on current expected credit losses methodology (CECL). The project focuses on the probability of default (PD) in future periods. 
 
 ## Data Source
@@ -26,3 +26,7 @@ Freddie Mac Single Family Loan-Level Dataset
 ### Evaluation
 #### summary.py
 In progress...
+
+### Authours
+- **Zhuo Zhao** 
+- **Prof. Georges Tsafack** 
