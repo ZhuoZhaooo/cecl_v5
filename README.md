@@ -2,26 +2,26 @@
 The project is to build DNN model for credit losses estimation based on current expected credit losses methodology (CECL). The project focuses on the probability of default (PD) in future periods. 
 ## Roadmap
 - [**Introduction to CECL Backgrounds**](#introduction)
-- **ML CECL Architecture**
-- **Data Source**
-- **Workflow (Scripts Descriptions)**
-- **Model Evaluation**
+- [**ML CECL Architecture**](#architecture)
+- [**Data Source**](#data)
+- [**Workflow (Scripts Descriptions)**](#workflow)
+- [**Model Evaluation**](#evaluation)
 
 ## Introduction to CECL Backgrounds <a name='introduction'></a>
 - Current Expected Credit Losses (CECL) is a new credit loss accounting standard (mode)l issued by FASB.
 - The CECL standard focuses on estimation of expected losses over the life of the loans, while the current standard relies on incurred losses (ALLL).
 ![][CECL_VS_ALLL]
 
-## ML CECL Architecture
+## ML CECL Architecture <a name='architecture'></a>
 **Our model focuses on the probability of default in each period.**
 - For a default loan, find its age when it defaults(default_age).
 - Calculate how long it takes that loan to default(time_to_d = default_age - current_age)
 - Set time_to_d as training label. Build a DNN to predict the probability distribution of time_to_d
 ![][time_to_d]
-## Data Source
+## Data Source <a name='data'></a>
 Freddie Mac Single Family Loan-Level Dataset  
 [Data Manual](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/project_description/user_guide.pdf)
-## Workflow
+## Workflow <a name='workflow'></a>
 
 ### Data Preparation
 
@@ -40,7 +40,7 @@ Freddie Mac Single Family Loan-Level Dataset
 #### model.py
 - One input layer; Two hidden Layer; One output Layer to predict probability of time_to_d
 
-### Evaluation
+### Evaluation <a name='evaluation'></a>
 #### summary.py
 In progress...
 
