@@ -19,8 +19,8 @@ The project is to build DNN model for credit losses estimation based on current 
 - Set time_to_d as training label. Build a DNN to predict the probability distribution of time_to_d
 ![][time_to_d]
 ## Data Source
-Freddie Mac Single Family Loan-Level Dataset
-
+Freddie Mac Single Family Loan-Level Dataset  
+[Data Manual](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/project_description/user_guide.pdf)
 ## Workflow
 
 ### Data Preparation
