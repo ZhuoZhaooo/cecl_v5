@@ -48,5 +48,5 @@ In progress...
 - **Zhuo Zhao** University of Rhode Island
 - **Prof. Georges Tsafack** University of Rhode Island
 
-[CECL_VS_ALLL]:https://github.com/ZhuoZhaooo/cecl_v5/blob/master/project_description/Screenshot_2019-11-23_12-55-49.png
-[time_to_d]:https://github.com/ZhuoZhaooo/cecl_v5/blob/master/project_description/Screenshot_2019-11-23_12-56-56.png
+[CECL_VS_ALLL]:/project_description/Screenshot_2019-11-23_12-55-49.png
+[time_to_d]:/project_description/Screenshot_2019-11-23_12-56-56.png
