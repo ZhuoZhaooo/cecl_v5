@@ -17,7 +17,7 @@ The project is to build DNN model for credit losses estimation based on current 
 - For a default loan, find its age when it defaults(default_age).
 - Calculate how long it takes that loan to default(time_to_d = default_age - current_age)
 - Set time_to_d as training label. Build a DNN to predict the probability distribution of time_to_d
-![][time_to_d]
+![](project_description/Screenshot_2019-11-23_12-56-56.png)
 ## Data Source <a name='data'></a>
 Freddie Mac Single Family Loan-Level Dataset  
 [Data Manual](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/project_description/user_guide.pdf)
@@ -47,6 +47,3 @@ In progress...
 ### Authors
 - **Zhuo Zhao** University of Rhode Island
 - **Prof. Georges Tsafack** University of Rhode Island
-
-[CECL_VS_ALLL]:/project_description/Screenshot_2019-11-23_12-55-49.png
-[time_to_d]:/project_description/Screenshot_2019-11-23_12-56-56.png
