@@ -29,9 +29,11 @@ Freddie Mac Single Family Loan-Level Dataset
 
 #### clean.py
 - Delete unuseful characteristics 
+
 #### label.py
 - Determine the delinquency threshold (Now we choose 6 periods)
-- Compute the “years to default”. Set “years to default” as our labels. Use the information of the first loan in each year to represent the that year. 
+- Compute the “years to default”. Set “years to default” as our labels. Use the information of the first loan in each year to represent the that year.
+
 #### resample.py
 - For categorical data, use onehot encoder
 - For numerical data, normalize the data
