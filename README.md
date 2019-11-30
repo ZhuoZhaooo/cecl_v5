@@ -10,6 +10,7 @@ The project is to build DNN model for credit losses estimation based on current 
 ## Introduction to CECL Backgrounds <a name='introduction'></a>
 - Current Expected Credit Losses (CECL) is a new credit loss accounting standard (mode)l issued by FASB.
 - The CECL standard focuses on estimation of expected losses over the life of the loans, while the current standard relies on incurred losses (ALLL).
+
 ![](project_description/Screenshot_2019-11-23_12-55-49.png)
 
 ## ML CECL Architecture <a name='architecture'></a>
@@ -17,6 +18,7 @@ The project is to build DNN model for credit losses estimation based on current 
 - For a default loan, find its age when it defaults(default_age).
 - Calculate how long it takes that loan to default(time_to_d = default_age - current_age)
 - Set time_to_d as training label. Build a DNN to predict the probability distribution of time_to_d
+
 ![](project_description/Screenshot_2019-11-23_12-56-56.png)
 ## Data Source <a name='data'></a>
 Freddie Mac Single Family Loan-Level Dataset  
