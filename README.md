@@ -28,11 +28,14 @@ Freddie Mac Single Family Loan-Level Dataset
 ### Data Preparation
 
 [clean.py](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/scripts/clean.py)
+- add economics factors to the data
 - Delete unuseful characteristics  
-
-[label.py](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/scripts/label.py)
 - Determine the delinquency threshold (Now we choose 6 periods)
 - Compute the “years to default”. Set “years to default” as our labels. Use the information of the first loan in each year to represent the that year.  
+
+[label.py](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/scripts/label.py)
+ - Merged with clean.py. Will no longer use in the future. 
+
 
 [resample.py](https://github.com/ZhuoZhaooo/cecl_v5/blob/master/scripts/resample.py)
 - For categorical data, use onehot encoder
