@@ -32,8 +32,8 @@ loans_cat_1hot = ["flag_fthb", "ppmt_pnlty", "st"]
 
 # Normalization for numerical data
 loans_num_norm = ["orig_loan_term","loan_age","fico","mi_pct",
-                  "cltv","dti","ltv","int_rt",
-                  "current_int_rt"]
+                  "cltv","dti","ltv","int_rt","current_int_rt",
+                 "median_income","unemployment_rate","house_index"]
 
 # Resample the data
 pipeline = ColumnTransformer([

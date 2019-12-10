@@ -22,9 +22,9 @@ model.compile(optimizer='rmsprop',
               metrics = [metrics.categorical_accuracy])
 
 history = model.fit(X,y,
-                    epochs=20,
+                    epochs=30,
                     batch_size=512,
-                    validation_split=0.2)
+                    validation_split=0.3)
 
 model.save("modelv5.h5")
 

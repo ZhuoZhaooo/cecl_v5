@@ -1,8 +1,7 @@
-#%%
 import pandas as pd
 import numpy as np
 
-datapath = "./test.csv"
+datapath = "~/cecl_dnn/data/LoanCleaned"
 df = pd.read_csv(datapath, low_memory=False, index_col="id_loan")
 
 # label the data
@@ -15,7 +14,8 @@ df_char = df_char.groupby(df_char.index).first()
 # extract date and numeric columns 
 num_cols = ["fico", "mi_pct", "cltv", "dti",
             "ltv","int_rt","orig_loan_term",
-            "current_upb","loan_age","current_int_rt","default_age"]
+            "loan_age","current_int_rt",
+            "default_age","delq_sts"]
 
 df_num = df[num_cols].reset_index().copy()
 
@@ -34,7 +34,8 @@ df_num.set_index(["id_loan"],inplace = True)
                         
 df_year = df_num.join(df_char, how = "left")
 
-df_year.to_csv("withlabel.csv")
+#%%
+df_year.to_csv("~/cecl_dnn/data/withlabel.csv")
 
 
 
